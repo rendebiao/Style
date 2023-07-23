@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rdb.style.widget.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <com.rdb.style.widget.Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Change Theme" />
+
+        <com.rdb.style.widget.AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="AutoCompleteTextView" />
+
+        <com.rdb.style.widget.CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CheckBox" />
+
+        <com.rdb.style.widget.CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CheckedTextView"
+            android:checked="true"
+            android:checkMark="?android:attr/listChoiceIndicatorSingle"/>
+
+        <com.rdb.style.widget.EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="EditText" />
+
+        <com.rdb.style.widget.MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="MultiAutoCompleteTextView" />
+
+        <com.rdb.style.widget.RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="RadioButton" />
+
+        <com.rdb.style.widget.Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Switch" />
+
+        <com.rdb.style.widget.TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+    </LinearLayout>
+</com.rdb.style.widget.ScrollView>
+

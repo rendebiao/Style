@@ -1,0 +1,65 @@
+<resources>
+
+    <integer-array name="colors">
+        <item>@color/theme_color_36bc99</item>
+        <item>@color/theme_color_7c80f7</item>
+        <item>@color/theme_color_3499da</item>
+        <item>@color/theme_color_1493ff</item>
+        <item>@color/theme_color_0069a6</item>
+        <item>@color/theme_color_00a2e8</item>
+        <item>@color/theme_color_22b14c</item>
+    </integer-array>
+
+    <integer-array name="themes">
+        <item>@array/theme_36bc99</item>
+        <item>@array/theme_7c80f7</item>
+        <item>@array/theme_3499da</item>
+        <item>@array/theme_1493ff</item>
+        <item>@array/theme_0069a6</item>
+        <item>@array/theme_00a2e8</item>
+        <item>@array/theme_22b14c</item>
+    </integer-array>
+
+    <integer-array name="theme_36bc99">
+        <item>@style/CoreTheme.Theme_36bc99</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_36bc99</item>
+        <item>@style/CoreTheme.Translucent.Theme_36bc99</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_36bc99</item>
+    </integer-array>
+    <integer-array name="theme_7c80f7">
+        <item>@style/CoreTheme.Theme_7c80f7</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_7c80f7</item>
+        <item>@style/CoreTheme.Translucent.Theme_7c80f7</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_7c80f7</item>
+    </integer-array>
+    <integer-array name="theme_3499da">
+        <item>@style/CoreTheme.Theme_3499da</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_3499da</item>
+        <item>@style/CoreTheme.Translucent.Theme_3499da</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_3499da</item>
+    </integer-array>
+    <integer-array name="theme_1493ff">
+        <item>@style/CoreTheme.Theme_1493ff</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_1493ff</item>
+        <item>@style/CoreTheme.Translucent.Theme_1493ff</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_1493ff</item>
+    </integer-array>
+    <integer-array name="theme_0069a6">
+        <item>@style/CoreTheme.Theme_0069a6</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_0069a6</item>
+        <item>@style/CoreTheme.Translucent.Theme_0069a6</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_0069a6</item>
+    </integer-array>
+    <integer-array name="theme_00a2e8">
+        <item>@style/CoreTheme.Theme_00a2e8</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_00a2e8</item>
+        <item>@style/CoreTheme.Translucent.Theme_00a2e8</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_00a2e8</item>
+    </integer-array>
+    <integer-array name="theme_22b14c">
+        <item>@style/CoreTheme.Theme_22b14c</item>
+        <item>@style/CoreTheme.Fullscreen.Theme_22b14c</item>
+        <item>@style/CoreTheme.Translucent.Theme_22b14c</item>
+        <item>@style/CoreTheme.Translucent.Fullscreen.Theme_22b14c</item>
+    </integer-array>
+</resources>

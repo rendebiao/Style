@@ -1,0 +1,162 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="AppCustomTheme" parent="BaseTheme">
+        <item name="colorPrimary">?attr/themeColor</item>
+        <item name="colorPrimaryDark">?attr/themeColor</item>
+        <item name="colorAccent">?attr/themeColor</item>
+
+        <item name="android:scrollbarSize">3dp</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/theme_white</item>
+
+        <!--以下为自定义属性-->
+        <!--主题色-->
+        <item name="themeColor">@color/theme_color</item>
+    </style>
+
+    <style name="AppCustomTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppCustomTheme.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="CoreTheme" parent="AppCustomTheme">
+        <!--        <item name="colorPrimaryDark">@color/theme_transparent</item>-->
+    </style>
+
+    <style name="CoreTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="CoreTheme.Theme_36bc99">
+        <item name="themeColor">@color/theme_color_36bc99</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_36bc99">
+        <item name="themeColor">@color/theme_color_36bc99</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_36bc99">
+        <item name="themeColor">@color/theme_color_36bc99</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_36bc99">
+        <item name="themeColor">@color/theme_color_36bc99</item>
+    </style>
+
+    <style name="CoreTheme.Theme_7c80f7">
+        <item name="themeColor">@color/theme_color_7c80f7</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_7c80f7">
+        <item name="themeColor">@color/theme_color_7c80f7</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_7c80f7">
+        <item name="themeColor">@color/theme_color_7c80f7</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_7c80f7">
+        <item name="themeColor">@color/theme_color_7c80f7</item>
+    </style>
+
+    <style name="CoreTheme.Theme_3499da">
+        <item name="themeColor">@color/theme_color_3499da</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_3499da">
+        <item name="themeColor">@color/theme_color_3499da</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_3499da">
+        <item name="themeColor">@color/theme_color_3499da</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_3499da">
+        <item name="themeColor">@color/theme_color_3499da</item>
+    </style>
+
+    <style name="CoreTheme.Theme_1493ff">
+        <item name="themeColor">@color/theme_color_1493ff</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_1493ff">
+        <item name="themeColor">@color/theme_color_1493ff</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_1493ff">
+        <item name="themeColor">@color/theme_color_1493ff</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_1493ff">
+        <item name="themeColor">@color/theme_color_1493ff</item>
+    </style>
+
+    <style name="CoreTheme.Theme_0069a6">
+        <item name="themeColor">@color/theme_color_0069a6</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_0069a6">
+        <item name="themeColor">@color/theme_color_0069a6</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_0069a6">
+        <item name="themeColor">@color/theme_color_0069a6</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_0069a6">
+        <item name="themeColor">@color/theme_color_0069a6</item>
+    </style>
+
+    <style name="CoreTheme.Theme_00a2e8">
+        <item name="themeColor">@color/theme_color_00a2e8</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_00a2e8">
+        <item name="themeColor">@color/theme_color_00a2e8</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_00a2e8">
+        <item name="themeColor">@color/theme_color_00a2e8</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_00a2e8">
+        <item name="themeColor">@color/theme_color_00a2e8</item>
+    </style>
+
+    <style name="CoreTheme.Theme_22b14c">
+        <item name="themeColor">@color/theme_color_22b14c</item>
+    </style>
+
+    <style name="CoreTheme.Fullscreen.Theme_22b14c">
+        <item name="themeColor">@color/theme_color_22b14c</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Theme_22b14c">
+        <item name="themeColor">@color/theme_color_22b14c</item>
+    </style>
+
+    <style name="CoreTheme.Translucent.Fullscreen.Theme_22b14c">
+        <item name="themeColor">@color/theme_color_22b14c</item>
+    </style>
+
+</resources>
